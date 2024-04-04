@@ -3,7 +3,7 @@
 # Diretórios local
 .vagrant*
 configs*
-remote_file_output*
+#remote_file_output*
 
 #actions-runner*
 
