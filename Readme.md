@@ -26,19 +26,19 @@ Assim, no diretório do projeto, já com o vagrant instalado basta executar o se
 vagrant validate
 ```
 
-- iniciar e provisionar o ambienet vagrant.
+- iniciar e provisionar o ambiente vagrant.
 
 ```
 vagrant up
 ```
 
-- desligar o ambienet vagrant.
+- desligar o ambiente vagrant.
 
 ```
 vagrant halt 
 ```
 
-- destruir o ambienet vagrant.
+- destruir o ambiente vagrant.
 
 ```
 vagrant destroy -f
