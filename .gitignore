@@ -1,0 +1,10 @@
+## CONFIG .gitignore
+
+# Diretórios local
+.vagrant*
+configs*
+remote_machine_file*
+
+#actions-runner*
+
+# Arquivos local

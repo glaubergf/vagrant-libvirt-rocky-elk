@@ -1,0 +1,2 @@
+Password for the [elastic] user successfully reset.
+New value: fzB6Q6*7hYylwH0zSSBo
