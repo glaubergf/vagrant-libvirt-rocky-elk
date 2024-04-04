@@ -46,21 +46,18 @@ vagrant destroy -f
 
 Abaixo, segue alguns aspectos sobre o projeto.
 
-### Vagrantfile
-___
+## Vagrantfile
 
 * Provisionar a VM com IP estático.
 * Criar o Disco maior que o default (10 G) da box do Rocky Linux.
 * Setar quantidade de vCPU e de Memória.
 * Sincronizar um diretório específico com o NFS.
 
-### Scripts
-___
+## Scripts
 
 Há 6 scripts de modo a automatizar as tarefas para redimencionar o disco, além de executar e configurar os produtos do Elastic Stack.
 
-#### No servidor
-___
+## No servidor
 
 #### basic
 
@@ -155,8 +152,7 @@ Parte essencial na configuração de um ambiente ELK (_Elasticsearch_, _Logstash
 * Permitir o tráfego na porta TCP 5044, necessária para a comunicação segura entre o Logstash e os clientes.
 
 
-#### No cliente
-___
+## No cliente
 
 #### install_metricbeat_client
 
