@@ -7,7 +7,7 @@ Data: 2024-03-11
 
 # Elastic Stack no Rocky Linux 9 com Vagrant (libvirt)
 
-![Image](https://github.com/glaubergf/vagrant-libvirt-rocky-elk/blob/main/pictures/server_rocky_elk.png)
+![Image](https://github.com/glaubergf/vagrant-libvirt-rocky-elk/blob/main/images/server_rocky_elk.png)
 
 O **[Elastic Stack](https://www.elastic.co/pt/elastic-stack/)** (_também conhecido como ELK Stack_) é composto pelos seguintes produtos: _Elasticsearch_, _Kibana_, _Beats_ e _Logstash_. Com isso, podemos obter dados de maneira confiável e segura de qualquer fonte, em qualquer formato, depois, fazer buscas, análises e visualizações.
 
