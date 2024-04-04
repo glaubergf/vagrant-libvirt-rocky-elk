@@ -62,7 +62,7 @@ Há 6 scripts de modo a automatizar as tarefas para redimencionar o disco, além
 #### No servidor
 ___
 
-#### script_basic
+#### basic
 
 Automatizar tarefas de administração do sistema Linux de forma programática.
 
@@ -78,7 +78,7 @@ Automatizar tarefas de administração do sistema Linux de forma programática.
 
 * Configuração do MOTD no arquivo /etc/profile: O script adiciona linhas ao final do arquivo /etc/profile para configurar o MOTD, incluindo a exibição de informações do sistema como nome do sistema operacional, nome do host, data, tempo de atividade, endereço IP externo e links para recursos da Elastic.
 
-#### script_check_and_resize_disk_growpart.sh
+#### check_and_resize_disk_growpart.sh
 
 Útil para expandir o espaço disponível na partição raiz da VM do sistema Rocky Linux, permitindo uma melhor utilização do espaço em disco alocado para a VM.
 
@@ -92,7 +92,7 @@ Automatizar tarefas de administração do sistema Linux de forma programática.
 
 * Dependencia do pacote **cloud-utils-growpart** para ser instalado para executar o comando _growpart_.
 
-#### script_install_elasticsearch
+#### install_elasticsearch
 
 Guia para a instalar e configurar o Elasticsearch em um servidor Rocky Linux 9, preparando o ambiente para uso em projetos de análise de dados e monitoramento.
 
@@ -116,7 +116,7 @@ Guia para a instalar e configurar o Elasticsearch em um servidor Rocky Linux 9, 
 
 * Verificar se o Elasticsearch está respondendo a solicitações HTTP simples usando o comando curl.
 
-#### script_install_kibana
+#### install_kibana
 
 Guia para instalar e configurar o Kibana, uma ferramenta de visualização de dados do Elastic Stack, em um sistema operacional Linux baseado em RPM.
 
@@ -136,7 +136,7 @@ Guia para instalar e configurar o Kibana, uma ferramenta de visualização de da
 
 * Habilitar o serviço Nginx para iniciar automaticamente na inicialização do sistema e reiniciar o serviço para aplicar as configurações.
 
-#### script_install_logstash
+#### install_logstash
 
 Parte essencial na configuração de um ambiente ELK (_Elasticsearch_, _Logstash_, _Kibana_), permitindo a coleta, processamento e visualização de dados de log de forma eficiente, centraliza os dados de log de várias fontes em um único local.
 
@@ -158,7 +158,7 @@ Parte essencial na configuração de um ambiente ELK (_Elasticsearch_, _Logstash
 #### No cliente
 ___
 
-#### script_install_metricbeat_client
+#### install_metricbeat_client
 
 Guia para instalar e configurar o Metricbeat em um cliente Debian, com o objetivo de coletar métricas do sistema e enviá-las para um servidor Elasticsearch. Principais etapas:
 
