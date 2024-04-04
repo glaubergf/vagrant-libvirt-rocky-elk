@@ -1,9 +1,9 @@
-----------
+---
  Projeto: vagrant-rockylinux-elastic-stack
  Descrição: O Vagrantfile provisiona um servidor Rocky Linux 9 (RHEL) para ser instalado o Elastick Stack (Elasticsearch/kibana/Logstash/Beats). Os scripts automatiza a instalação e configuração dos produtos do ELK Stack e de alguns pacotes e configurção do sistema.
 Autor: Glauber GF [mcnd2]
 Data: 2024-03-11
-----------
+---
 
 # Elastic Stack no Rocky Linux 9 com Vagrant (libvirt)
 
